@@ -41,3 +41,9 @@ body {
   border-radius: 8px;
   box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
 }
+
+.image-container img {
+  width: 50px;  /* Set the width of the image */
+  height: auto;  /* Maintain the aspect ratio */
+  margin: 5px 0;  /* Add some space around the image */
+}
